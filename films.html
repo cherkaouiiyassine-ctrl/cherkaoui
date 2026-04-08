@@ -1,223 +1,251 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="fr">
 <head>
-	<title>A compléter !</title>
-		
-	<!--Metatags-->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-		
-	<!--Open graph data-->
-	<meta property="og:title" content="">
-	<meta property="og:type" content="">
-	<meta property="og:url" content="">
-	<meta property="og:image" content="">
-	<meta property="og:description" content="">
-		
-	<!--fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,600,700" rel="stylesheet">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/logo1.png">
+	<title>Les Films - Festival Cinéma Nice</title>
 	
-	<!--CSS-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Découvrez la programmation du festival de cinéma en plein air à Nice.">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/stylescss.css">
 	<link rel="stylesheet" href="webfonts/all.css">
-
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-39RLFYST27"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
- 		gtag('js', new Date());
-  		gtag('config', 'G-39RLFYST27');
-	</script>
 </head>
-<body>
 
-	<!--00.header-->
-	<nav class="navbar sticky-top navbar-expand-lg navbar-dark maNav">
-		<a class="navbar-brand" href="index.html">
-			<img src="images/logo.jpg" width="100" alt="Logo">
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link " href="index.html">accueil <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link active" href="#">Les Films</a>
-				<a class="nav-item nav-link" href="index.html#booking">Réservation</a>
-				<a href="blog.html" class="nav-item nav-link navLink">Actualités</a>
-				<a class="nav-item nav-link" href="contact.html">Contact</a>
-			</div>
+
+<body class="film-page">
+
+<!-- HEADER -->
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark maNav">
+	<a class="navbar-brand" href="#">
+		<img src="images/logo.jpg" width="100" alt="Logo du site">
+	</a>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	
+
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav ml-auto">
+			<a class="nav-item nav-link active" href="index.html">Accueil</a>
+			<a class="nav-item nav-link" href="films.html">Les Films</a>
+			<a class="nav-item nav-link navLink" href="index.html#booking">Réservation</a>
+			<a class="nav-item nav-link navLink" href="blog.html">Actualités</a>
+			<a class="nav-item nav-link" href="contact.html">Contact</a>
 		</div>
-	</nav>
-	<!--end header-->
-    
-	<div class="jumbotron text-center">
-		<span>-Bandeau informations-</span>
 	</div>
+</nav>
 
-	<!-- Section films 01 à 03 -->
-	<section class="container-fluid filmlist">
-		<h2>Films en programmation</h2>
-		<div class="container">
-			<div class="row film01">
-				<aside class="col-sm-4"></aside>
-				<article class="col-sm-8">
-					<h2>-Titre-</h2>
-					<h3>-Séance-</h3>
-					<h3>-Info.-</h3>
-					<div class="note">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-					<p>In principio creavit Deus caelum et terram terra autem erat inanis vacua ...</p>
-					<p>
-						<span>Date de sortie</span><br>
-						<span>Durée</span><br>
-						<span>De</span><br>
-						<span>Avec</span><br>
-						<span>Genres</span><br>
-						<span>Nationalité</span>
-					</p>
-					<a href="index.html#booking" class="btn btn-custom">Je réserve !</a>
-					<a href="" target="_blank" class="btn btn-custom allocine">En savoir +</a>
-				</article>
+<!-- BANNIÈRE -->
+<div class="jumbotron text-center">
+	<h1>Programmation du Festival</h1>
+	<p>Découvrez tous les films projetés cet été</p>
+</div>
+
+<div class="col-sm-4 col-md-3 col-lg-2 mb-4"></div>
+
+<!-- FILM 1 -->
+<section class="container filmlist">
+		<h2 class="d-none">Film 1</h2>
+	<div class="row film01">
+		<aside class="col-sm-4">
+			<img src="images/01-films.jpg" class="img-fluid" alt="Inception">
+		</aside>
+
+		<article class="col-sm-8">
+			<h2>Inception</h2>
+			<h3>05 juillet - 21h30</h3>
+			<h4>Science-fiction</h4>
+
+			<div class="note">
+				★★★★★
 			</div>
-			<div class="row film02">
-				<article class="col-sm-8">
-					<h2>-Titre-</h2>
-					<h3>-Séance-</h3>
-					<h3>-Info.-</h3>
-					<div class="note">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-					<p>In principio creavit Deus caelum et terram terra autem erat inanis vacua ...</p>
-					<p>
-						<span>Date de sortie</span><br>
-						<span>Durée</span><br>
-						<span>De</span><br>
-						<span>Avec</span><br>
-						<span>Genres</span><br>
-						<span>Nationalité</span>
-					</p>
-					<a href="index.html#booking" class="btn btn-custom">Je réserve !</a>
-					<a href="" target="_blank" class="btn btn-custom allocine">En savoir +</a>
-				</article>
-				<aside class="col-sm-4 order-first order-sm-4"></aside>
-			</div>
-			<div class="row film03">
-				<aside class="col-sm-4"></aside>
-				<article class="col-sm-8">
-					<h2>-Titre-</h2>
-					<h3>-Séance-</h3>
-					<h3>-Info.-</h3>
-					<div class="note">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-					<p>In principio creavit Deus caelum et terram terra autem erat inanis vacua ...</p>
-					<p>
-						<span>Date de sortie</span><br>
-						<span>Durée</span><br>
-						<span>De</span><br>
-						<span>Avec</span><br>
-						<span>Genres</span><br>
-						<span>Nationalité</span>
-					</p>
-					<a href="index.html#booking" class="btn btn-custom">Je réserve !</a>
-					<a href="" target="_blank" class="btn btn-custom allocine">En savoir +</a>
-				</article>
-			</div>
-		</div>
-	</section>
 
-	<!-- Section films 04 à 06 -->
-	<section class="container-fluid filmlist">
-		<h2>Films suivants</h2>
-		<div class="container">
-			<!-- Même structure répétée pour film04, film05, film06 -->
-			<!-- ... -->
-		</div>
-	</section>
+			<p>
+				Un voleur expérimenté dans l'art du rêve infiltre l'esprit des autres pour voler des secrets.
+			</p>
 
-	<!-- Section films 07 à 09 -->
-	<section class="container-fluid filmlist">
-		<h2>Autres films</h2>
-		<div class="container">
-			<!-- Même structure répétée pour film07, film08, film09 -->
-			<!-- ... -->
-		</div>
-	</section>
+			<p>
+				<strong>Sortie :</strong> 2010<br>
+				<strong>Durée :</strong> 2h28<br>
+				<strong>Réalisateur :</strong> Christopher Nolan<br>
+				<strong>Acteurs :</strong> Leonardo DiCaprio<br>
+				<strong>Genre :</strong> Science-fiction<br>
+				<strong>Pays :</strong> USA
+			</p>
 
-	<!-- Section films 10 à 12 -->
-	<section class="container-fluid filmlist">
-		<h2>Derniers films</h2>
-		<div class="container">
-			<!-- Même structure répétée pour film10, film11, film12 -->
-			<!-- ... -->
-		</div>
-	</section>
+			<a href="index.html#booking" class="btn btn-custom">Réserver</a>
+			<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=143692.html" target="_blank" class="btn btn-custom">Allociné</a>
+		</article>
+	</div>
+</section>
+
+<div class="col-sm-4 col-md-3 col-lg-2 mb-4"></div>
+
+<!-- FILM 2 -->
+<section class="container filmlist">
+		<h2 class="d-none">Film 2</h2>
+	<div class="row film02">
+		<article class="col-sm-8">
+			<h2>Intouchables</h2>
+			<h3>06 juillet - 21h30</h3>
+			<h4>Comédie</h4>
+
+			<div class="note">★★★★☆</div>
+
+			<p>
+				L’histoire d’une rencontre improbable entre un riche tétraplégique et son auxiliaire de vie.
+			</p>
+
+			<p>
+				<strong>Sortie :</strong> 2011<br>
+				<strong>Durée :</strong> 1h52<br>
+				<strong>Réalisateurs :</strong> Nakache & Toledano<br>
+				<strong>Acteurs :</strong> Omar Sy<br>
+				<strong>Genre :</strong> Comédie<br>
+				<strong>Pays :</strong> France
+			</p>
+
+			<a href="index.html#booking" class="btn btn-custom">Réserver</a>
+			<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=183473.html" target="_blank" class="btn btn-custom">Allociné</a>
+		</article>
+
+		<aside class="col-sm-4">
+			<img src="images/02-films.jpg" class="img-fluid" alt="Intouchables">
+		</aside>
+	</div>
+</section>
+
+<div class="col-sm-4 col-md-3 col-lg-2 mb-4"></div>
+
+<!-- FILM 3 -->
+<section class="container filmlist">
+		<h2 class="d-none">Film 3</h2>
+	<div class="row film03">
+		<aside class="col-sm-4">
+			<img src="images/03-films.jpg" class="img-fluid" alt="Avatar">
+		</aside>
+
+		<article class="col-sm-8">
+			<h2>Avatar</h2>
+			<h3>07 juillet - 21h30</h3>
+			<h4>Aventure</h4>
+
+			<div class="note">★★★★☆</div>
+
+			<p>
+				Un marine paraplégique est envoyé sur Pandora pour une mission unique.
+			</p>
+
+			<p>
+				<strong>Sortie :</strong> 2009<br>
+				<strong>Durée :</strong> 2h42<br>
+				<strong>Réalisateur :</strong> James Cameron<br>
+				<strong>Acteurs :</strong> Sam Worthington<br>
+				<strong>Genre :</strong> Aventure<br>
+				<strong>Pays :</strong> USA
+			</p>
+
+			<a href="index.html#booking" class="btn btn-custom">Réserver</a>
+			<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=61282.html" target="_blank" class="btn btn-custom">Allociné</a>
+		</article>
+	</div>
+</section>
+
+<div class="col-sm-4 col-md-3 col-lg-2 mb-4"></div>
+
+	<section class="container filmlist">
+			<h2 class="d-none">Film 4</h2>
+	<div class="row">
+		<aside class="col-sm-4">
+			<img src="images/4444.jpg" class="img-fluid" alt="Film">
+		</aside>
+
+		<article class="col-sm-8">
+			<h2>The King</h2>
+			<h3>Date - Heure</h3>
+			<h4>Genre</h4>
+
+			<p>Description...</p>
+
+			<p>
+				<strong>Sortie :</strong><br>
+				<strong>Durée :</strong><br>
+				<strong>Réalisateur :</strong><br>
+			</p>
+
+			<a href="index.html#booking" class="btn btn-custom">Réserver</a>
+		</article>
+	</div>
+</section>
+
+
+
+<div class="col-sm-4 col-md-3 col-lg-2 mb-4"></div>
+
 
 	<!-- Footer -->
 	<footer class="container-fluid footer">
-		<div class="container py-3">
-			<div class="row">
-				<div class="col-12 col-md-3">
-					<h2>Liens utiles</h2>
-					<div class="footerLinks">
-						<a href="index.html">Accueil</a>
-						<a href="films.html">Les Films</a>
-						<a href="blog.html">Actualités</a>
-						<a href="contact.html">Contact</a>
-						<a href="mentions-legales.html">Mentions légales</a>
-					</div>
-				</div>
-				<div class="col-12 col-md-3 address">
-					<h2>Contactez-nous</h2>
-					<div class="contactIcons mb-3">
-						<p><span class="pr-3"><i class="fas fa-home"></i></span>-Adresse-</p>
-						<p><span class="pr-3"><i class="fas fa-envelope"></i></span>-Mail-</p>
-						<p><span class="pr-3"><i class="fas fa-phone"></i></span>-Tél.-</p>
-					</div>
-				</div>
-				<div class="col-12 col-md-3 partenaire">
-					<h2>Partenariat</h2>
-					<ul>
-						<li>-Partenaire 1-</li>
-						<li>-Partenaire 2-</li>
-						<li>-Partenaire 3-</li>
-					</ul>
-				</div>
-				<div class="col-12 col-md-3 social">
-					<h2>Suivez-nous !</h2>
-					<div class="socialicons">
-						<a href="#"><i class="fab fa-facebook-f"></i></a>
-						<a href="#"><i class="fab fa-youtube"></i></a>
-						<a href="#"><i class="fab fa-instagram"></i></a>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="socketBkg">
-			<div class="socket text-center">
-				<p>Copyright - Site réalisé par <br>
-				Université Côte d'Azur - <a href="https://univ-cotedazur.fr/" target="_blank">Univ-Côte d'Azur</a></p>
-			</div>
-		</div>
-	</footer>
+    <div class="container py-3">
+        <div class="row">
+            <!-- Liens utiles -->
+            <div class="col-12 col-md-3">
+                <h2>Liens utiles</h2>
+                <div class="footerLinks">
+                    <a href="index.html">Accueil</a>
+                    <a href="films.html">Les Films</a>
+                    <a href="blog.html">Actualités</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="mentions-legales.html">Mentions légales</a>
+                </div>
+            </div>
 
+            <!-- Contact -->
+            <div class="col-12 col-md-3 address">
+                <h2>Contactez-nous</h2>
+                <div class="contactIcons mb-3">
+                    <p><span class="pr-3"><i class="fas fa-home" aria-hidden="true"></i></span>Adresse : 27 Avenue Jean Medecin</p>
+                    <p><span class="pr-3"><i class="fas fa-envelope" aria-hidden="true"></i></span>contact@festivalcinema.fr</p>
+                    <p><span class="pr-3"><i class="fas fa-phone" aria-hidden="true"></i></span>Tél +(33) 07 98 01 79 02</p>
+                </div>
+            </div>
+
+            <!-- Partenariat -->
+            <div class="col-12 col-md-3 partenaire">
+                <h2>Partenariat</h2>
+                <ul>
+                    <li>-Métropole Nice Côte d'Azur</li>
+                    <li>-Région PACA</li>
+                    <li>-Ville de Nice</li>
+                </ul>
+            </div>
+
+            <!-- Réseaux sociaux -->
+            <div class="col-12 col-md-3 social">
+                <h2>Suivez-nous !</h2>
+                <div class="socialicons">
+                    <a href="https://www.facebook.com/?locale=fr_FR"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/?hl=fr&gl=FR&app=desktop"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <!-- Copyright -->
+    <div class="socketBkg">
+        <div class="socket text-center">
+            <p>
+                &copy; Site réalisé par <br>
+                Yassine Cherkaoui - <a href="https://univ-cotedazur.fr/" target="_blank" rel="noopener">Univ-Côte d'Azur</a>
+            </p>
+        </div>
+    </div>
+</footer>
 	<!--Scroll to top button-->
 	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
 

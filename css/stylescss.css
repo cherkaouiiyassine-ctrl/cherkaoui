@@ -105,13 +105,13 @@ body {
       border-color: white; }
 
 .about aside {
-
+  background: url("../images/02-Image.jpg") no-repeat center;
   background-size: 100% auto;
   height: auto;
   min-height: 200px; }
 
 .news aside {
- 
+  background: url("../images/03-Image.jpg") no-repeat center;
   background-size: 100% auto;
   height: auto;
   min-height: 200px; }
